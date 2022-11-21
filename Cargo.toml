@@ -1,0 +1,13 @@
+[package]
+name = "path_trav"
+license = "GPL-3.0"
+version = "1.0.0"
+edition = "2021"
+readme = "README.md"
+repository = "https://github.com/gatomo-oficial/path_trav"
+description = "A simple path traversal checker. Useful for APIs that serve dynamic files."
+keywords = ["fs", "security", "path_traversal", "path"]
+
+
+[dependencies]
+substring = "1.4.5"
