@@ -9,12 +9,14 @@ To verify if the second is inside the first, `path_trav` turn paths into absolut
 
 #### Example 1.
 > **Base&nbsp;&nbsp;:** */home/user/data* &nbsp;&nbsp;**-->**&nbsp; ***/home/user/data***
+
 > **Rel&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:** *./data/folder* &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**-->**&nbsp; ***/home/user/data**/folder*
 
 Relative path is inside base path.
 
 #### Example 2.
 > **Base&nbsp;&nbsp;:** */home/user/data* &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**-->**&nbsp; */home/user/data*
+
 > **Rel&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:** *./data/../../../etc/passwd* &nbsp;&nbsp;**-->**&nbsp; */etc/passwd*
 
 Relative paths isn't inside base path, tries to acces sensitive data
