@@ -43,7 +43,7 @@ pub trait PathTrav {
     /// // Path is inside server_folder (Ok)
     /// assert_eq!(Ok(false), server_folder.is_path_trav(&server_file));
     ///
-    /// // Path tries to acces sensitive data (Path Traversal detected)
+    /// // Path tries to access sensitive data (Path Traversal detected)
     /// assert_eq!(Ok(true), server_folder.is_path_trav(&important_file));
     ///
     /// // File does not exists (ENOENT)
