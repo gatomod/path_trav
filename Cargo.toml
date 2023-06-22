@@ -4,7 +4,7 @@ license = "Apache-2.0"
 version = "2.0.0"
 edition = "2021"
 readme = "README.md"
-repository = "https://github.com/gatomo-oficial/path_trav"
+repository = "https://github.com/gatomod/path_trav"
 description = "A simple path traversal checker. Useful for APIs that serve dynamic files."
 keywords = ["fs", "security", "path_traversal", "path"]
 
