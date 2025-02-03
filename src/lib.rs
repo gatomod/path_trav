@@ -2,7 +2,7 @@
 //! Compare two paths to check if there are path traversal.
 //! Useful for APIs that serve dynamic files.
 //!
-//! **Note:** this is a security tool. If you see something wrong, [open an issue in GitHub](https://github.com/gatomo-oficial/path_trav/issues)
+//! **Note:** this is a security tool. If you see something wrong, [please, read the security policy](https://github.com/gatomod/path_trav/security)
 //!
 //! ## Examples
 //! For examples, see `PathTrav` trait
@@ -20,7 +20,7 @@ pub trait PathTrav {
     /// ## is_path_trav
     /// Compare two paths to check if there are path traversal.
     ///
-    /// **Note:** this is a security tool. If you see something wrong, [open an issue in GitHub](https://github.com/gatomo-oficial/path_trav/issues)
+    /// **Note:** this is a security tool. If you see something wrong, [please, read the security policy](https://github.com/gatomod/path_trav/security)
     ///
     /// ## Args
     /// * `&self`: `&Path` - Root path, the base to compare (given by `std::path`)

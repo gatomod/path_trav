@@ -1,7 +1,7 @@
 [package]
 name = "path_trav"
 license = "Apache-2.0"
-version = "2.0.0"
+version = "2.0.1"
 edition = "2021"
 readme = "README.md"
 repository = "https://github.com/gatomod/path_trav"
@@ -10,4 +10,4 @@ keywords = ["fs", "security", "path_traversal", "path"]
 
 
 [dependencies]
-substring = "1.4.5"
+substring = "1"
